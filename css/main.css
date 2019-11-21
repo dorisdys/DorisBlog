@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*******
+GENERAL 
+********/
+
+body{
+	font-family: "Franklin Gothic Bold",sans-serif;		
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+/*******
+HEADING 
+********/
+header{
+	
+	float: left;
+	margin:0 0 30px 0;
+	padding: 5px 0 0 0;
+	width:100%;
+}
+
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding:0 5%;
+}
+
+#logo{
+	text-align:center;
+	margin:0;
+}
+#Blog{
+	min-height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+	
+}
+
+h1{
+	font-family:  "Helvetica Neue", sans-serif;
+	margin:15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size: 0.75em;
+	margin:-5px 0 0;
+	font-weight: normal;
+}
+
+h3{
+	margin:0 0 1em 0;
+}
+/*******
+NAVIGATION
+********/
+nav{
+	text-align: center;
+	padding: 10px 0 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+/*******
+FOOTER
+********/
+footer{
+	
+	font-size: 0.75em;
+	text-align: center;
+	clear:both;
+	padding-top: 50px;
+	color:#ccc;
+}
+.social-icon{
+	width:20px;
+	height:20px;
+	margin:0 5px;
+}
+/*******
+PAGE VEDIO
+********/
+#gallery{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	float:left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color:#bdc3c7;
+}
+
+#gallery li a p{
+	margin:0;
+	padding: 5%;
+	font-size: 0.75em;
+	color:#bdc3c7;
+}
+/*******
+COLORS
+********/
+/*links*/
+a{
+	color: #6AB47B;
+}
+/*标题*/
+header{
+	background: linear-gradient(to left,rgba(54,194,182,0.96) 0,rgba(62,188,207,0.96) 100%);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		display: block;
+		
+		width: 100%;
+		z-index: 1000;
+}
+/*logo text标志文字*/
+h1,h2{
+	color:#fff;
+}
+h3{
+	color:darkgrey
+}
+/*导航背景*/
+nav{
+	background-color:#C9C2C2;	
+}
+/*导航链接*/
+nav a{
+	color:#fff;
+}
+/*选中的导航链接*/
+nav a.selected, nav a:hover{
+	color:palevioletred;
+}
+
+body{
+	background-color: #fff;
+	color:lightblue;
+}
+
+/*******
+PAGE ABOUT 
+********/
+.profile-photo{
+	display: block;
+	max-width: 800px;
+	margin: :0 auto 30px;
+	border-radius: 20;
+	
+}
+/*******
+PAGE CONTACT
+********/
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+}
